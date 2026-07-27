@@ -1,5 +1,5 @@
 ![TeknoFixHub Banner](.github/assets/banner.png)
-# TeknoFixHub Platform 🚀
+# <img src=".github/assets/icon-color.png" width="40" align="left"> TeknoFixHub Platform 🚀
 
 ![CI/CD](https://github.com/Cah-oon/teknofixhub-platform/actions/workflows/ci-cd.yml/badge.svg)
 ![Node](https://img.shields.io/badge/Node.js-18%2B-green)
