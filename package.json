@@ -1,0 +1,25 @@
+# Global Package.json untuk Root
+
+Workspace untuk monorepo management.
+
+Gunakan `lerna` atau `npm workspaces` untuk manage multiple packages.
+
+## 📦 Setup
+
+```bash
+npm install
+
+# Install dependencies untuk semua packages
+npm install --workspaces
+
+# Run script di semua packages
+npm run dev --workspaces
+```
+
+## 📝 Scripts
+
+- `npm run setup` - Setup semua services
+- `npm run dev` - Start all services
+- `npm run build` - Build semua services
+- `npm run test` - Test semua services
+- `npm run lint` - Lint semua services

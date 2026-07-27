@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PROD001",
+    "name": "TeknoFixHub Premium Membership",
+    "slug": "premium-membership",
+    "category": "Premium",
+    "price": 99.99,
+    "discountPrice": null,
+    "description": "Akses unlimited ke semua fitur premium",
+    "image": "/images/products/premium-membership.jpg",
+    "stock": 999,
+    "featured": true
+  },
+  {
+    "id": "PROD002",
+    "name": "Complete Web Development Course",
+    "slug": "web-dev-course",
+    "category": "Courses",
+    "price": 79.99,
+    "discountPrice": 49.99,
+    "description": "Learn modern web development with React and Node.js",
+    "image": "/images/products/web-dev-course.jpg",
+    "stock": 999,
+    "featured": true
+  },
+  {
+    "id": "PROD003",
+    "name": "Smart Arduino Kit",
+    "slug": "smart-arduino-kit",
+    "category": "Electronics",
+    "price": 59.99,
+    "discountPrice": null,
+    "description": "Complete Arduino kit for IoT projects",
+    "image": "/images/products/arduino-kit.jpg",
+    "stock": 150,
+    "featured": true,
+    "affiliate": true
+  },
+  {
+    "id": "PROD004",
+    "name": "Professional USB C Hub",
+    "slug": "usb-c-hub",
+    "category": "Electronics",
+    "price": 39.99,
+    "discountPrice": null,
+    "description": "7-in-1 USB C hub dengan multiple ports",
+    "image": "/images/products/usb-c-hub.jpg",
+    "stock": 200,
+    "featured": false,
+    "affiliate": true
+  }
+]
