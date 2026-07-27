@@ -1,0 +1,17 @@
+# .dockerignore
+node_modules
+npm-debug.log
+dist
+build
+.env
+.env.*.local
+.git
+.gitignore
+README.md
+yarn.lock
+package-lock.json
+.DS_Store
+.vscode
+.idea
+coverage
+.nyc_output

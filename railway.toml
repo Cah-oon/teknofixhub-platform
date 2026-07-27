@@ -1,0 +1,28 @@
+# railway.toml - Railway.app deployment configuration
+
+[build]
+builder = "docker"
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/api/health"
+healthcheckInterval = 10
+restartPolicyMaxRetries = 3
+
+[[services]]
+name = "backend"
+dockerfile = "./docker/Dockerfile.backend"
+builder = "docker"
+port = 5000
+
+[[services]]
+name = "frontend"
+dockerfile = "./docker/Dockerfile.frontend"
+builder = "docker"
+port = 3000
+
+[[services]]
+name = "admin"
+dockerfile = "./docker/Dockerfile.frontend"
+builder = "docker"
+port = 3001

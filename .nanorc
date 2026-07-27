@@ -1,0 +1,13 @@
+# .nanorc - Nano editor syntax highlighting config (optional)
+# Color file for syntax highlighting in Nano editor
+
+syntax "JSON" "\.json$"
+color brightyellow "\{|\}|\[|\]"
+color blue "\"[^\"]*\"" ":[[:space:]]*\"[^\"]*\""
+
+syntax "YAML" "\.(yaml|yml)$"
+color brightyellow "^[^ ].*:"
+
+syntax "SQL" "\.sql$"
+color brightgreen "CREATE|ALTER|DROP|INSERT|UPDATE|DELETE|SELECT"
+color blue "\`[^\`]*\`"
