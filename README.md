@@ -1,3 +1,4 @@
+![TeknoFixHub Banner](.github/assets/banner.png)
 # TeknoFixHub Platform 🚀
 
 ![CI/CD](https://github.com/Cah-oon/teknofixhub-platform/actions/workflows/ci-cd.yml/badge.svg)
